@@ -1,0 +1,22 @@
+<script>
+    $(document).ready(function(){
+        $("input[value='Đặt phòng']").click(function(){
+            $("#abc").show("slow");
+        })
+        $("input[value='radio2']").click(function(){
+            $("#abc").hide("slow");
+        })
+        $("input[value='radio3']").click(function(){
+            $("#abc").show("fast");
+        })
+        $("input[value='radio4']").click(function(){
+            $("#abc").hide("fast");
+        })
+        $("input[value='radio5']").click(function(){
+            $("#abc").show(3000);
+        })
+        $("input[value='radio6']").click(function(){
+            $("#abc").hide(3000);
+        })
+    })
+</script>

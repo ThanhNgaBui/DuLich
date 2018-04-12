@@ -1,0 +1,378 @@
+
+/*Tour hot nhất*/
+.tour-item .tour-link {
+    font-size: 11px;
+    overflow: hidden;
+    margin: 15px 5px 0 5px;
+    font-weight: 700;
+    text-align: center;
+    height: 29px;
+}
+.tour-item {
+    float: left;
+    width: 210px;
+    margin: 0 10px 0 10px;
+}
+.tour-item .tour-inner{
+    height: 250px;
+}
+.tour-item .tour-inner.inner01{
+    background-color: rgba(0, 128, 0, 0.46);
+}
+.tour-item .tour-inner.inner02{
+    background-color: cyan;
+}
+.tour-item .tour-inner.inner03{
+    background-color:rgba(255, 255, 0, 0.52)
+}
+.tour-item .tour-inner.inner04{
+    background-color:rgba(214, 93, 93, 0.44)
+}
+.tour-item .new{
+    background: url(../image/new.gif) no-repeat;
+    width: 25px;
+    height: 13px;
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    right: 9px;
+    z-index: 100;
+}
+.tour-item .tour-sale{
+    position: absolute;
+    z-index: 2;
+    top: 54px;
+    left: -3px;
+    background: url(../image/tour-sale.png) no-repeat;
+    width: 71px;
+    height: 70px;
+}
+.tour-item .tour-sale span{
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 14px 3px 0 -1px;
+    transform: rotate(-43deg);
+    -ms-transform: rotate(-43deg);
+    -webkit-transform: rotate(-43deg) 
+}
+.tour-item .thumb{
+    height: 142px;
+    overflow: hidden;
+}
+.tour-item .thumb img {
+    width: 100%;
+    min-height: 142px;
+}
+.tour-item .count-number{
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+    margin: 8px 0 0 10px;
+    font-weight: bold;
+}
+.tour-item .count-number span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #aa0809;
+    display: block;
+    margin-top: -8px;
+}
+.tour-item .tour-view{
+    float: right;
+    padding: 3px 12px !important;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 12px 20px 0 0;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #940000;
+    text-transform: uppercase;
+}
+.tour-item .tour-view:hover{
+    background: #000;
+}
+.tour-item .row1{
+    border-bottom: 1px solid #bcbbc1;
+    height: 51px;
+}
+.tour-item .row2-left{
+    float: left;
+    width: 101px;
+    height: 50px;
+    border-right: 1px solid #bcbbc1;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px 0 0;
+    line-height: 20px;
+}
+.tour-item .row2-right{
+    float: right;
+    width: 101px;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px 0 0;
+    line-height: 20px;
+    font-weight: normal;
+}
+.tour-item .tour-price{
+    color: #f00;
+    font-weight: bold;
+}
+/*code slideShow*/
+.tour-hot{
+    margin: 0 0 0 15px;
+    text-align: center;
+}
+#hot_slider{
+    height: 320px;
+    /*width: 100%;*/
+    overflow: hidden;
+    /*position: relative;*/
+}
+.tour-item{
+    position: relative;
+    float: left;
+}
+.tour-item .content-tour{
+    float: left;
+}
+/*tour trong nước*/
+.tour-inside{
+    overflow: hidden;
+}
+.tour-inside .tour-item .tour-link{
+    height: 33px;
+    margin-bottom: 2px;
+}
+.list-tour{
+    margin-left: 15px;
+    overflow: hidden;
+}
+.tour-item .tour-inner.inner001{
+    height: 290px;
+}
+.tour-item .tour-inner.inner001{
+    background: #edecf2;
+}
+.row1 .row_content.first{
+    margin-top: 5px;
+}
+.row1 .row_content{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.row1 .row_content.last span{
+    font-weight: bold;
+    font-size: 13px;
+    color: red;
+}
+.row1 .row_content span{
+    font-weight: normal;
+}
+.tour-inside .tour-item .row1{
+    border-bottom: none;
+}
+.tour-inside .tour-item .row2{
+    margin-top: 45px;
+}
+.tour-item .tour-inner.inner001 .tour-view{
+    margin: 6px 20px 0 0;
+}
+.tour-order{
+    background: #3F9812;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 7px;
+    margin: 0 10px 0 0;
+    float: right;
+    white-space: nowrap;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+}
+.tour-order:hover{
+    background: #000;
+}
+.tour-order span{
+    margin-left: 5px;
+}
+.price_old{
+    color: #999;
+    text-decoration: line-through;
+}
+.tour-item .inner001 .tour-sale{
+    top: 54px;
+}
+.tour-item .inner001 .new{
+    top: 70px;
+}
+/*end tour trong nước*/
+
+/*tour ngoài nước*/
+.tour-outside{
+    overflow: hidden;
+}
+.tour-outside .tour-item .row1{
+    border-bottom: none;
+}
+.tour-outside .tour-item .row2{
+    margin-top: 55px;
+}
+a.btn_Xem button{
+    text-align: right;
+    float: right;
+    margin: 14px 30px 10px 0;
+    padding: 0px 4px 1px 2px;
+    color: #fff;
+    background: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+a.btn_Xem button:hover{
+    background: #000;
+}
+/*end tour ngoài nước*/
+
+/*main-qc*/
+.main-qc {
+    margin: 0 0 15px 17px;
+    overflow: hidden;
+    background: #fff;
+    display: inline-block;
+}
+.main-qc a {
+    float: left;
+    height: 210px;
+    margin: 0 12px 5px 0;
+    overflow: hidden;
+    width: 312px;
+}
+.main-qc a img {
+    width: 100%;
+    min-height: 210px;
+}
+/*khach san*/
+.two-col .col1{
+    width: 485px;
+    float: left;
+    overflow: hidden; 
+}
+.two-col .col1 .box-content{
+    height: 350px;
+    overflow: hidden;
+}
+.hotel-ticker ul{
+    padding: 0 0 0 15px;
+}
+.hotel-ticker ul li{
+    list-style: none;
+    margin-bottom: 1px;
+}
+.hotel-ticker ul li .text a{
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    color: #000;
+    margin: 5px 0 5px 0;
+}
+.hotel-ticker ul li .text a:hover{
+    text-decoration: none;
+}
+.hotel-ticker ul li img{
+    width: 20%;
+}
+.content_hotel .text_title{
+    color: #0067af;
+    margin-bottom: 5px;
+}
+.content_hotel .star{
+    font-size: 12px;
+    margin: 2px 2px 2px 0;
+    color: #ffd700;
+}
+.content_hotel{
+    margin-left: 107px;
+    margin-top: -95px;
+    overflow: hidden;
+}
+.price_hotel{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000;
+}
+/*dat xe*/
+.two-col .col2{
+    width: 485px;
+    float: right;
+    overflow: hidden; 
+}
+.two-col .col2 .box-content{
+    height: 350px;
+    overflow: hidden;
+}
+.car-ticker ul{
+    padding: 0 0 0 15px;
+}
+.car-ticker ul li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+.car-ticker ul li .text a{
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    color: #000;
+    margin: 5px 0 5px 0;
+}
+.car-ticker ul li .text a:hover{
+    text-decoration: none;
+}
+.car-ticker ul li img{
+    width: 23%;
+}
+.content_car .text_title{
+    color: #0067af;
+    margin-bottom: 5px;
+}
+.content_car .star{
+    font-size: 12px;
+    margin: 2px 2px 2px 0;
+    color: #ffd700;
+}
+.content_car{
+    margin-left: 122px;
+    margin-top: -83px;
+    overflow: hidden;
+}
+.price_car{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.tour-oder{
+    background: #3F9812;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 3px;
+    margin: 0 5px 0 0;
+    float: right;
+    white-space: nowrap;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.tour-oder:hover{
+    background: #000;
+}
+.two-col a.btn button {
+    margin: 0px 30px 10px 0;
+}

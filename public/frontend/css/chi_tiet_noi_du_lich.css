@@ -1,0 +1,94 @@
+.ten{
+	cursor: auto;
+    font-size: 14px;
+    color: #aa0809;
+    text-transform: uppercase;
+    padding: 0 0 7px;
+    display: block;
+}
+.ten h1{
+	font-size: 15px;
+	font-weight: bold;
+}
+.noidung{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.noidung .nd_left img{
+	width: 203px;
+    height: 143px;
+    overflow: hidden;
+    float: left;
+    margin-right: 70px;
+}
+.noidung .nd_center{
+   /* margin-left: 70px;*/
+    float: left;
+    margin-right: 16px;
+}
+.noidung .nd_right{
+	float: right;
+	width: 170px;
+}
+.noidung .nd_right .row{
+	margin-bottom: 10px;
+}
+.noidung .nd_center .row{
+	margin-bottom: 5px;
+}
+.noidung .nd_center .row span{
+	font-weight: bold;
+	font-size: 16px;
+	color: #C00C0C;
+}
+/*tabs*/
+ul.tabs {
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style: none;
+        height: 32px;
+        border-bottom: 1px solid #999999;
+        border-left: 1px solid #999999;
+        width: 100%;
+}
+ 
+ul.tabs li {
+        float: left;
+        margin: 0;
+        cursor: pointer;
+        padding: 0px 21px ;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #999999;
+        border-left: none;
+        font-weight: bold;
+        background: #EEEEEE;
+        overflow: hidden;
+        position: relative;
+}
+ 
+ul.tabs li:hover {
+        background: #CCCCCC;
+}
+ 
+ul.tabs li.active{
+        background: #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+}
+ 
+.tab_container {
+        border-top: none;
+        clear: both;
+        float: left;
+        width: 100%;
+}
+ 
+.tab_content {
+        padding: 20px;
+        font-size: 1.2em;
+        display: none;
+}
+[class*="col-"] {
+     margin-left: 0; 
+}

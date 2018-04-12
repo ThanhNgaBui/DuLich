@@ -1,0 +1,41 @@
+.news-small {
+    overflow: hidden;
+    padding: 0 0 0 10px;
+}
+.news-small .list-new {
+    float: left;
+    width: 349px;
+    height: 97px;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 15px;
+}
+.news-small .list-new .img img {
+    width: 100%;
+    min-height: 70px;
+}
+.news-small .list-new .img {
+	float: left;
+    width: 93px;
+    height: 70px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.news-small .list-new .g-content {
+    margin-left: 105px;
+}
+.news-small .list-new .g-row {
+    padding: 0;
+    font-size: 11px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.news-small .list-new .g-row.last {
+    padding: 0;
+    font-size: 11px;
+    max-height: 60px;
+    overflow: hidden;
+}
+.news-small .list-new .g-title {
+    font-size: 12px;
+    font-weight: bold;
+}

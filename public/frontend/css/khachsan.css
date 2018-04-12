@@ -1,0 +1,20 @@
+.hotel-ticker{
+	overflow: hidden;
+	margin-top: 15px;
+}
+.hotel-ticker ul li{
+	width: 320px;
+	height: 180px;
+	float: left;
+	margin-right: 28px;
+}
+.hotel-ticker ul li .image{
+	width: 93px;
+	height: 70px;
+	overflow: hidden;
+}
+.content_hotel .text_title {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 26px;
+}
